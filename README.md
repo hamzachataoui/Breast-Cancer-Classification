@@ -4,12 +4,30 @@ This is a demo project to elaborate how Machine Learn Models are deployed on pro
 ### Prerequisites
 You must have Scikit Learn, Pandas (for Machine Leraning Model) and Flask (for API) installed.
 
-### Project Structure
-This project has four major parts :
-1. model.py - This contains code fot our Machine Learning model to predict employee salaries absed on trainign data in 'hiring.csv' file.
-2. app.py - This contains Flask APIs that receives employee details through GUI or API calls, computes the precited value based on our model and returns it.
-3. request.py - This uses requests module to call APIs already defined in app.py and dispalys the returned value.
-4. templates - This folder contains the HTML template to allow user to enter employee detail and displays the predicted employee salary.
+### Data
+The data was provded by Dr. William H. Wolberg from the University of Wisconsin General Surgery Dept. as well as W. Nick Street, and Olvi L. Mangasarian from the University of Wisconsin Computer Science Dept. Features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe characteristics of the cell nuclei present in the image. Then each sample is put under a class label of either Malignant (M) or Benign (B)
+
+Link for Data: https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/wdbc.data
+
+Attribute information:
+ID number
+Diagnosis (M = malignant, B = benign)
+3-32) Ten real-valued features are computed for each cell nucleus:
+
+a) radius (mean of distances from center to points on the perimeter)
+b) texture (standard deviation of gray-scale values)
+c) perimeter
+d) area
+e) smoothness (local variation in radius lengths)
+f) compactness (perimeter^2 / area - 1.0)
+g) concavity (severity of concave portions of the contour)
+h) concave points (number of concave portions of the contour)
+i) symmetry 
+j) fractal dimension ("coastline approximation" - 1)
+
+###Result
+![image](https://user-images.githubusercontent.com/59541945/134766919-344a5596-f338-464e-b1e2-d99b9dfcd61d.png)
+
 
 ### Running the project
 1. Ensure that you are in the project home directory. Create the machine learning model by running below command -
