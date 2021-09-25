@@ -1,6 +1,9 @@
 ## ML-Model-Flask-Deployment
 This is a demo project to elaborate how Machine Learn Models are deployed on production using Flask API
 
+### Overiview
+This project was completed as a final project for the DATS 6103 Data Mining course taught by Dr. Yuxiao Huang from The George Washington University Data Science Program. The project use breast cancer classification data to compare the accuracy of various classifiers: Perceptron, SVM, Decision Tree, and KNN
+
 ### Prerequisites
 You must have Scikit Learn, Pandas (for Machine Leraning Model) and Flask (for API) installed.
 
