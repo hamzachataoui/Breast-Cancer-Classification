@@ -27,7 +27,7 @@ j) fractal dimension ("coastline approximation" - 1)
 
 ### Result
 
-![image](https://user-images.githubusercontent.com/59541945/134766919-344a5596-f338-464e-b1e2-d99b9dfcd61d.png)
+![image](https://user-images.githubusercontent.com/59541945/134766974-ef031cff-6062-42c2-8b14-d80708e10684.png)
 
 
 ### Running the project
